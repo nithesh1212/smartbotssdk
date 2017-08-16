@@ -714,7 +714,12 @@ function koreBotChat() {
         _chatContainer.off('click', '.close-btn').on('click', '.close-btn', function (event) {
             me.destroy();
         });
+         /*_chatContainer.off('click', '.img-thumbnail').on('click', '.img-thumbnail', function (event) {
+            <a href="www.google.com" target="_blank">'+reportInfo.reportTitle+'</a>
 
+            //<a href="www.google.com" class="btn btn-info" role="button">Link Button</a>
+        });
+*/
         _chatContainer.off('click', '.minimize-btn').on('click', '.minimize-btn', function (event) {
             if (me.minimized === true) {
                 _chatContainer.removeClass("minimize");
@@ -1046,9 +1051,11 @@ function koreBotChat() {
                                 <div class="minimized-title"></div> \
                                 <div class="minimized"><span class="messages"></span></div> \
 				<div class="kore-chat-header"> \
+                    <div class="headerImage"> <a href="http://www.google.com" target="_blank">\
+                        <img src="/UI/libs/images/download.jpg" width="100" height="30"> </a>\</div>\
 					<div class="header-title" title="${chatTitle}">${chatTitle}</div> \
-					<div class="chat-box-controls"> \
-                                                <button class="reload-btn" title="Reconnect"><span></span></button> \
+                            <div class="chat-box-controls"> \
+                                                                 <button class="reload-btn" title="Reconnect"><span></span></button> \
 						<button class="minimize-btn" title="Minimize">&minus;</button> \
                                                 <button class="expand-btn" title="Expand"><span></span></button>\
 						<button class="close-btn" title="Close">&times;</button> \

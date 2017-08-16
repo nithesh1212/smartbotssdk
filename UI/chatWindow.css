@@ -167,6 +167,11 @@
     white-space: nowrap;
     float: left;
 }
+.kore-chat-header .headerImage {
+    position: absolute;
+    right: 160px;
+    top: 6px;
+}
 .kore-chat-header  .header-title.ui-draggable-handle{
     cursor: move;   
 }
