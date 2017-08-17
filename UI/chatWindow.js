@@ -1051,7 +1051,7 @@ function koreBotChat() {
                                 <div class="minimized-title"></div> \
                                 <div class="minimized"><span class="messages"></span></div> \
 				<div class="kore-chat-header"> \
-                    <div class="headerImage"> <a href="http://www.google.com" target="_blank">\
+                    <div class="headerImage"> <a href="https://navientapplicationupdatedam-b071149a2.dispatcher.us1.hana.ondemand.com/webapp/index.html" target="_blank">\
                         <img src="/UI/libs/images/download.jpg" width="100" height="30"> </a>\</div>\
 					<div class="header-title" title="${chatTitle}">${chatTitle}</div> \
                             <div class="chat-box-controls"> \
