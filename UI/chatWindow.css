@@ -160,17 +160,18 @@
 	width: 100%;
 }
 .kore-chat-header  .header-title{
-    width: 52%;
+    text-align: center;
+    width: 35%;
     font-size: 16px!important;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     float: left;
+    padding-top: 2px;
 }
 .kore-chat-header .headerImage {
-    position: absolute;
-    right: 160px;
-    top: 6px;
+        float: left;
+        padding-top: 8px;  
 }
 .kore-chat-header  .header-title.ui-draggable-handle{
     cursor: move;   
@@ -380,7 +381,17 @@ ul.chat-container li.fromOtherUsers.with-icon .extra-info{
     border-top: 1px solid #EEEEEE;
     background:white;
     padding: 5px 20px;
-}	
+}
+.kore-chat-window .bottomButtons{
+    position: absolute;
+    bottom: -38px;
+    width: 100%;
+    min-height: 38px;
+    border-top: 1px solid #EEEEEE;
+    background:white;
+    padding: 5px 20px;
+    border-bottom: 1px solid #EEEEEE;
+}
 
 .kore-chat-window .kore-chat-footer .chatInputBox{
     width: 100%;
